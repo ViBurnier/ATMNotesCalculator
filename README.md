@@ -7,8 +7,8 @@
 
 
 <strong> Regras:</strong> <br>
-   Sempre usar o menor número de notas possíveis. <br>
-   Usar somente if, while e atributos
+-Sempre usar o menor número de notas possíveis. <br>
+-Usar somente if, while e atributos
 
 ---
 
@@ -50,8 +50,8 @@ O sistema também verifica se o valor inserido é válido (positivo e múltiplo 
    
 <br>
 2. Executo o Main: <br>
-   ```bash
-   Navegue, já dentro do pasta clonada, até src/CashWithDrawSystem/Main e execute Main.
+   
+      Navegue, já dentro do pasta clonada, até src/CashWithDrawSystem/Main e execute Main.
    
 📌 Exemplo de uso:
 
