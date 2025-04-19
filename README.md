@@ -5,10 +5,9 @@ Faça um programa que simula um caixa eletrônico. O usuário deve informar o va
 vai mostras quantas notas de R$100, R$50, R$20, R$10, R$5, R$2 são necessárias para compor esse valor:
 
 Regras: <br>
+-
 Sempre usar o menor número de notas possíveis.
 Usar somente if, while e atributos
-
-Simulador de saque bancário, desenvolvido em Java, com o objetivo de calcular a menor quantidade possível de cédulas necessárias para um valor inserido pelo usuário.
 
 ---
 
