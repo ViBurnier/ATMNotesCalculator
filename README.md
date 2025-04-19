@@ -53,12 +53,12 @@ O sistema também verifica se o valor inserido é válido (positivo e múltiplo 
    
       Navegue, já dentro do pasta clonada, até src/CashWithDrawSystem/Main e execute Main.
    
-📌 Exemplo de uso:
+📌 Exemplo de uso:<br>
 
-insira um valor
+insira um valor<br>
 376
 <br>
-Verificando valor...
+Verificando valor...<br>
 Seu valor guarda: 3 notas de 100 <br>
 Seu valor guarda: 1 notas de 50 <br>
 Seu valor guarda: 1 notas de 20<br>
