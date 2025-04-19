@@ -1,42 +1,46 @@
 package CashWithDrawSystem;
 
 public class Count{
-    //sempre usar o menor numeros de notas possiveis
-    //usar if e while
-    //valor ser positivo e multiplo de 2 (valor + e * 2)
-    //valor de saque 376
+    //instacia a classe exibir, isso ainda causa um forte acoplamento mas já será resolvido.
+    static Exibir exibir = new Exibir();
 
-    //    private final int nota50 = 50;x
-    //    private final int nota20 = 20;x
-    //    private final int nota10 = 10;x
-    //    private final int nota5 = 5;x
-    //    private final int nota2 = 2;x
-
-    static Exibir show = new Exibir();
-
+    //nota de dinheiro que sera atualizada pelo método newNoteBank().
     private static int bankNote = 100;
 
-    public static void resolve(int valueInsert){
-        //atualizar em um so atributo os valores das notas
-        //quero que while verifique quantas notas cabem dentro de value (e talvez atualizar o valor, ainda nao sei)
 
-        double valueCompare = 0;
-        double bankAmount = 0.0;
+    public static void resolve(int valueInsert){
+
+        //esses dois atributos estão aqui para não perder os valores que ganharam dentro do while
+
+        //valor de comparação serve para armazenar as notas e comparar com o valor inserido
+        //se o valueCompare for igual ao valueInsert a conta acaba.
+        int valueCompare = 0;
+        int bankAmount = 0;
 
         while(valueCompare < valueInsert){
 
-            valueInsert = (int) (valueInsert - valueCompare);
-            bankAmount = Math.floor(valueInsert / bankNote);
-
-
+            bankAmount = valueInsert / bankNote;
+            valueInsert = (valueInsert - valueCompare);
             valueCompare =+ bankNote * bankAmount;
 
-            if(bankAmount != 0){
+            int imp = valueInsert % 2;
+            int calc = bankAmount * bankAmount;
 
-            show.showAmountNote(bankAmount, bankNote);
+            if(bankAmount != 0){
+                //se valor for impar
+                    if(imp == 1){
+                        exibir.showAmountNote(bankAmount, bankNote);
+                    }
+                //se valor for par
+                    if(calc == valueInsert){
+                        exibir.showAmountNote(bankAmount, bankNote);
+                    }
             }
+
             newNoteBank();
+
         }
+
 
     }
 
@@ -53,14 +57,9 @@ public class Count{
             return bankNote;
         }
 
-
-        if(bankNote == 5){
-            bankNote = bankNote - 3;
-            return bankNote;
-        }
-
         else{
-            return 0;
+            bankNote = 2;
+            return bankNote;
         }
 
     }
