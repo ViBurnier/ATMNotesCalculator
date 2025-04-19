@@ -48,6 +48,9 @@ O sistema também verifica se o valor inserido é válido (positivo e múltiplo 
    ```bash
    git clone https://github.com/seu-usuario/seu-repositorio.git
 
+2.Executo o Main:
+   Navegue, já dentro do pasta clonada, até src/CashWithDrawSystem/Main e execute Main.
+
 📌 Exemplo de uso:
 
 insira um valor
