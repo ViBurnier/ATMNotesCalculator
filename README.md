@@ -56,7 +56,7 @@ O sistema também verifica se o valor inserido é válido (positivo e múltiplo 
 📌 Exemplo de uso:<br>
 
 insira um valor<br>
-376
+375
 <br>
 Verificando valor...<br>
 Seu valor guarda: 3 notas de 100 <br>
