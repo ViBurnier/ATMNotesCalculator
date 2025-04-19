@@ -57,9 +57,9 @@ O sistema também verifica se o valor inserido é válido (positivo e múltiplo 
 
 insira um valor
 376
-
+<br>
 Verificando valor...
-Seu valor guarda: 3 notas de 100
-Seu valor guarda: 1 notas de 50
-Seu valor guarda: 1 notas de 20
-Seu valor guarda: 1 notas de 5
+Seu valor guarda: 3 notas de 100 <br>
+Seu valor guarda: 1 notas de 50 <br>
+Seu valor guarda: 1 notas de 20<br>
+Seu valor guarda: 1 notas de 5<br>
