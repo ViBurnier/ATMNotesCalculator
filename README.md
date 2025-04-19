@@ -1,11 +1,11 @@
 # 💸 Simulador de Saque Bancário (ATM Notes Calculator)
 
-Este projeto foi retirado de um exercício: <br>
+<h2>Este projeto foi retirado de um exercício:</h2> <br>
    Faça um programa que simula um caixa eletrônico. O usuário deve informar o valor(inteiro) e o programa
    vai mostras quantas notas de R$100, R$50, R$20, R$10, R$5, R$2 são necessárias para compor esse valor:
 
 
-Regras: <br>
+<h2>Regras:</h2> <br>
    Sempre usar o menor número de notas possíveis.
    Usar somente if, while e atributos
 
