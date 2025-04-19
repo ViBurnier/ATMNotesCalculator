@@ -4,9 +4,9 @@ Este projeto foi retirado de um exercício: <br> <br>
    Faça um programa que simula um caixa eletrônico. O usuário deve informar o valor(inteiro) e o programa
    vai mostras quantas notas de R$100, R$50, R$20, R$10, R$5, R$2 são necessárias para compor esse valor:
 
-<hr>
 
-Regras: <br> <br>
+
+<strong> Regras:</strong> <br> <br>
    Sempre usar o menor número de notas possíveis.
    Usar somente if, while e atributos
 
