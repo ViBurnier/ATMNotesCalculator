@@ -14,7 +14,7 @@
 
 ## 🎯 Objetivo
 
-Simular a lógica de um caixa eletrônico que distribui o valor solicitado utilizando o menor número possível de notas, considerando os seguintes valores disponíveis:
+Simular a lógica de um caixa eletrônico que distribui o valor solicitado utilizando o menor número possível de notas, considerando os seguintes valores disponíveis: R$100, R$50, R$20, R$10, R$5, R$2
 
 
 
