@@ -7,8 +7,8 @@
 
 
 <strong> Regras:</strong> <br>
--Sempre usar o menor número de notas possíveis. <br>
--Usar somente if, while e atributos
+- Sempre usar o menor número de notas possíveis. <br>
+- Usar somente if, while e atributos
 
 ---
 
