@@ -13,23 +13,23 @@ public class Count{
         //esses dois atributos estão aqui para não perder os valores que ganharam dentro do while
 
         //valor de comparação serve para armazenar as notas e comparar com o valor inserido
-        //se o valueCompare for igual ao valueInsert a conta acaba.
         int valueCompare = 0;
         int bankAmount = 0;
 
-        while(valueCompare < valueInsert){
+        //se o valueCompare for igual ao valueInsert a conta acaba.
+        while(valueCompare != valueInsert){
 
             valueInsert = valueInsert - valueCompare;
+
             bankAmount = valueInsert / bankNote;
 
-            valueCompare =+ bankNote * bankAmount;
+            valueCompare = bankNote * bankAmount;
 
-            if(bankAmount != 0){
+            exibir.showAmountNote(bankAmount, bankNote);
 
-                exibir.showAmountNote(bankAmount, bankNote);
-            }
             newNoteBank();
         }
+
 
     }
 
@@ -42,15 +42,18 @@ public class Count{
 
 
         if(bankNote == 50){
-            bankNote = bankNote - 30;
+            bankNote = 20;
             return bankNote;
         }
 
-        else{
+        if(bankNote == 5){
             bankNote = 2;
             return bankNote;
         }
-
+        else {
+            bankNote = 1;
+            return bankNote;
+        }
     }
 
 

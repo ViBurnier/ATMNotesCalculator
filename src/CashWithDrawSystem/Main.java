@@ -10,6 +10,7 @@ public class Main {
 
         if(verific.verificValue(insertConsole.getValue())){
             Count count = new Count();
+
             count.resolve(insertConsole.getValue());
         }
 
