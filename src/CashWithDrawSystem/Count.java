@@ -29,8 +29,6 @@ public class Count{
 
             newNoteBank();
         }
-
-
     }
 
     public static int newNoteBank(){
