@@ -4,14 +4,18 @@ public class Main {
 
     public static void main(String[] args) {
         Verific verific = new VerificarValue();
+        Count count = new Count();
 
-        UserInsertConsole insertConsole = new UserInsertConsole();
-        insertConsole.insert();
+        InsertConsoleValue insertConsoleValue = new InsertConsoleValue();
+        insertConsoleValue.insert();
 
-        if(verific.verificValue(insertConsole.getValue())){
-            Count count = new Count();
-            count.resolve(insertConsole.getValue());
+        while(!verific.verificValue(insertConsoleValue.getValue())){
+            System.out.println("insira um valor valido");
+            insertConsoleValue.insert();
         }
+
+
+            count.resolve(insertConsoleValue.getValue());
 
     }
 }
