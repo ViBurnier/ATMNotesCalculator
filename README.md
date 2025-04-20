@@ -2,7 +2,7 @@
 
 <strong>Este projeto foi retirado de um exercício:</strong> <br>
    Faça um programa que simula um caixa eletrônico. O usuário deve informar o valor(inteiro) e o programa
-   vai mostras quantas notas de R$100, R$50, R$20, R$10, R$5, R$2 são necessárias para compor esse valor:
+   vai mostras quantas notas de R$100, R$50, R$20, R$10, R$5, R$2 e R$1 são necessárias para compor esse valor:
 
 
 
@@ -14,7 +14,7 @@
 
 ## 🎯 Objetivo
 
-Simular a lógica de um caixa eletrônico que distribui o valor solicitado utilizando o menor número possível de notas, considerando os seguintes valores disponíveis: R$100, R$50, R$20, R$10, R$5, R$2
+Simular a lógica de um caixa eletrônico que distribui o valor solicitado utilizando o menor número possível de notas, considerando os seguintes valores disponíveis: R$100, R$50, R$20, R$10, R$5, R$2 e R$1
 
 
 
