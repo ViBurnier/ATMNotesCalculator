@@ -19,28 +19,17 @@ public class Count{
 
         while(valueCompare < valueInsert){
 
+            valueInsert = valueInsert - valueCompare;
             bankAmount = valueInsert / bankNote;
-            valueInsert = (valueInsert - valueCompare);
+
             valueCompare =+ bankNote * bankAmount;
 
-            int imp = valueInsert % 2;
-            int calc = bankAmount * bankAmount;
-
             if(bankAmount != 0){
-                //se valor for impar
-                    if(imp == 1){
-                        exibir.showAmountNote(bankAmount, bankNote);
-                    }
-                //se valor for par
-                    if(calc == valueInsert){
-                        exibir.showAmountNote(bankAmount, bankNote);
-                    }
+
+                exibir.showAmountNote(bankAmount, bankNote);
             }
-
             newNoteBank();
-
         }
-
 
     }
 
