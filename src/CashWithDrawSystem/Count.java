@@ -2,6 +2,7 @@ package CashWithDrawSystem;
 
 public class Count{
     //instacia a classe exibir, isso ainda causa um forte acoplamento mas já será resolvido.
+    //instancie o exibir e faca um constructor
     static Exibir exibir = new Exibir();
 
     //nota de dinheiro que sera atualizada pelo método newNoteBank().
@@ -25,6 +26,7 @@ public class Count{
 
             valueCompare = bankNote * bankAmount;
 
+            //=======forte acoplamento========//
             exibir.showAmountNote(bankAmount, bankNote);
 
             newNoteBank();
